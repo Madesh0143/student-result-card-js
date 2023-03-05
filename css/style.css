@@ -1,0 +1,54 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 1.7rem 0;
+}
+h1{
+    color: rgb(255, 115, 0);
+    font-weight: 400;
+    text-align: center; 
+}
+hr{
+    border-color: red;
+}
+input{
+    font-size: 1.05rem;
+    padding: 0.3rem;
+}
+input[type=number]{
+    width: 150px;
+}
+table{
+    width: 100%;
+    border: 1px solid;
+}
+th{
+    background-color: rgb(204, 189, 189);
+    
+}
+th,td{
+    padding: 0.5rem;
+    text-align: center;
+}
+.header{
+    font-weight: 500;
+    color: red;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+tr:nth-child(2n){
+    background-color: rgb(245, 241, 219);
+}
+.btn{
+    font-size: 1.05rem;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin-left: 22rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Result Card System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sutdent Result Card System</h1>
+        <hr>
+
+        <form action="">
+           <input type="text" name="" id="F__name" placeholder="Student Name" autocomplete="off" >
+           <input type="text" name="" id="F__rollno" placeholder="Roll N0:" autocomplete="off">
+
+            <hr>
+
+           <input type="number" name="" id="F__tamil" placeholder="Tamil Marks" autocomplete="off">
+           <input type="number" name="" id="F__english" placeholder="English Marks" autocomplete="off">
+           <input type="number" name="" id="F__maths" placeholder="Maths Marks" autocomplete="off">
+           <input type="number" name="" id="F__science" placeholder="Science Marks" autocomplete="off">
+           <input type="number" name="" id="F__social" placeholder="Social Marks" autocomplete="off">
+          
+
+           <button type="button" class="btn" onclick="clickFunction()" >Create</button>
+        </form>
+        <hr>
+        <table border="2">
+            
+            <tr>
+                <th >Student Name</th>
+                <th colspan="2" id="S__name" >here</th>
+            </tr>
+            <tr>
+                <th>Student Roll </th>
+                <th colspan="2" id="S__rollno" >here</th>
+            </tr>
+            <tr>
+                <td class="header">Subject Name</td>
+                <td class="header">Obt Mark</td>
+                <td class="header">Total Mark</td>
+            </tr>
+
+            <tr>
+                <td>Tamil</td>
+                <td id="T__mark" >here</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td id="E__mark" >here</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td id="M__mark" >here</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td id="S__mark">here</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td id="SO__mark" >here</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <th>Total Mark</th>
+                <th id="total__mark" >here</th>
+                <th>500</th>
+            </tr>
+            <tr>
+                <th>Grade</th>
+                <td colspan="2" id="grade" >here</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+    
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
